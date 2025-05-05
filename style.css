@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/*MARGIN e PADDING DA TELA*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*VARIÁVEIS*/
+:root {
+    --branco-principal: #FFFFFF;
+    --branco-secundario: #f9f9f9;
+    --cinza-secundario: #c0c0c0;
+    --cor-botao: #167BF7;
+    --cor-de-fundo: #00030C;
+    --fonte-principal: "inter";
+    --cor-botao-efeito: #3c92fa;
+}
+
+/*PARÂMETROS DE TODO O CORPO DA PÁGINA*/
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.principal {
+    background-image:url(IMAGENS/Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+    align-items: center;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+}
+
+.container__caixa {
+    margin: 0 6rem;
+}
+
+.container__titulo {
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+.container__imagem {
+    margin: 1rem 0 2rem 0;
+}
+
+.container__botao {
+    background-color: var(--cor-botao);
+    padding: 1rem;
+    border-radius: 5px;
+    color: var(--branco-principal);
+    text-decoration: none;
+    display: block;
+    margin-bottom: 1rem;
+}
+
+.botao_secundario {
+    background-color: transparent;
+    border: solid 1px var(--branco-principal);
+}
+
+.container__aviso {
+    font-size: 12px;
+    color: var(--cinza-secundario);
+}
+
+.secundario {
+    align-items: center;
+    margin: 0 10rem;
+}
+
+.secundario__imagem {
+    width: 90%;
+}
+
+.descricao__titulo {
+    font-weight: 700;
+    font-size: 3rem;
+    color: var(--branco-principal);
+    margin-bottom: 0.3rem;
+}
+
+.descricao__paragrafo {
+    font-weight: 100;
+    font-size: 1rem;
+    color: var(--branco-secundario)
+}
+
+.secundario__botao {
+    display:inline-block;
+    margin-top: 1rem;
+}
+
+.container__descricao {
+    padding: 1.3rem;
+}
+
+.dispositivos {
+    text-align: center;
+}
+
+.dispositivos__titulo {
+    color: var(--branco-principal);
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.dispositivos__lista {
+    display: flex;
+    list-style-type: none;
+    padding: 2% 14rem;
+}
+
+.lista__imagem {
+    width: 100%;
+}
+
+.lista__paragrafo {
+    font-size: 2rem;
+    color: var(--branco-principal);
+    font-weight: 400;
+    padding: 1rem;
+}
+
+.rodape {
+    text-align: center;
+    padding-top: 10rem;
+}
+
+.rodape__lista {
+    display: flex;
+    gap: 1.5rem;
+    list-style-type: none;
+    padding: 2rem 10rem 0 10rem;
+}
+
+.lista__link {
+    text-decoration: none;
+    color: var(--branco-principal);
+    font-size: 1rem;
+}
+
+.rodape__paragrafo {
+    font-size: 0.88rem;
+    color: var(--cinza-secundario);
+    margin: 1rem;
+    padding: 0 10rem 10rem 10rem;
+}
+
+.paragrafo__primeiro {
+    margin: 2rem;
+}
+
+.rodape__lista a:hover {
+    color: var(--cor-botao);
+}
+
+.rodape__lista a:active {
+    color: var(--branco-principal);
+}
+
+.container__botao:hover {
+    background-color: var(--cor-botao-efeito);
+    color: var(--cor-de-fundo);
+}
