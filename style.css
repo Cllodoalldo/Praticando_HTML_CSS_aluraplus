@@ -204,6 +204,7 @@ body {
 
     .dispositivos__lista {
         display: block;
+        align-items: center;
     }
 
 /*FOOTER*/
