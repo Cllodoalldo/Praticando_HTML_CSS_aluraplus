@@ -204,7 +204,6 @@ body {
 
     .dispositivos__lista {
         display: block;
-        align-items: center;
     }
 
 /*FOOTER*/
@@ -212,11 +211,11 @@ body {
         display: block;
     }
 
-    .descricao__paragrafo {
-        margin: 0 3rem 0 3rem;
+    .paragrafo__primeiro {
+        
     }
 
-    .descricao__paragrafo {
-        margin: 0 2.5rem 0 2.5rem;
+    .paragrafo__segundo {
+        
     }
 }
