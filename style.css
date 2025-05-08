@@ -175,7 +175,7 @@ body {
     color: var(--cor-de-fundo);
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 768px) {
 
     .principal {
         background-image: none;
@@ -212,7 +212,8 @@ body {
     }
 
     .paragrafo__primeiro {
-        
+        text-align: center;
+        margin: 0 0 1rem 0;
     }
 
     .paragrafo__segundo {
